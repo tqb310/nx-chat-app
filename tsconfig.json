@@ -1,19 +1,22 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compileOnSave": false,
-  "files": [],
-  "references": [
-    {
-      "path": "./apps/chatapp-e2e"
-    },
-    {
-      "path": "./apps/chatapp"
-    },
-    {
-      "path": "./apps/backend-e2e"
-    },
-    {
-      "path": "./apps/backend"
-    }
-  ]
+    "extends": "./tsconfig.base.json",
+    "compileOnSave": false,
+    "files": [],
+    "references": [
+        {
+            "path": "./apps/chatapp-e2e"
+        },
+        {
+            "path": "./apps/chatapp"
+        },
+        {
+            "path": "./apps/backend-e2e"
+        },
+        {
+            "path": "./apps/backend"
+        },
+        {
+            "path": "./libs/ui"
+        }
+    ]
 }
