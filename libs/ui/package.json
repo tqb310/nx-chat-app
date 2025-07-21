@@ -16,7 +16,8 @@
     },
     "nx": {
         "tags": [
-            "scope:ui"
+            "type:ui",
+            "scope:chatappshared"
         ]
     }
 }

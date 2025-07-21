@@ -27,12 +27,12 @@ export default [
                             onlyDependOnLibsWithTags: ['scope:shared'],
                         },
                         {
-                            sourceTag: 'scope:chatapp',
-                            onlyDependOnLibsWithTags: ['scope:ui'],
+                            sourceTag: 'scope:chatappshared',
+                            onlyDependOnLibsWithTags: ['scope:chatappshared'],
                         },
                         {
-                            sourceTag: 'scope:feature',
-                            onlyDependOnLibsWithTags: ['scope:ui'],
+                            sourceTag: 'scope:chatapp',
+                            onlyDependOnLibsWithTags: ['type:feature', 'scope:chatappshared'],
                         },
                     ],
                 },

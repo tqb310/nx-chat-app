@@ -20,6 +20,7 @@
     },
     "nx": {
         "tags": [
+            "type:app",
             "scope:chatapp"
         ]
     }
