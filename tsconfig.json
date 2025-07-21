@@ -20,6 +20,9 @@
         },
         {
             "path": "./libs/routes"
+        },
+        {
+            "path": "./libs/controllers"
         }
     ]
 }
