@@ -81,6 +81,7 @@
     },
     "workspaces": [
         "apps/*",
-        "libs/*"
+        "libs/*",
+        "libs/infrastructures/db/*"
     ]
 }
